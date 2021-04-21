@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <header class="bg-dark text-light">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">lol champions</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav"> 
+                <!--active hay que cambiarlo y ponerlo en la pagina que corresponde-->  <!--index.html es para dejar pagina inicio -->
+              <a class="nav-link " aria-current="page" href="index.html">inicio</a>
+                                      <!--campeones.html es para dejar pagina campeones en 2 pagina -->
+              <a class="nav-link active" href="campeones.html">campeones</a>
+              </div>
+          </div>
+        </div>
+      </nav>
+    </header>   <!--contenedor de fila-->
+    <main class="container-fluid pt-5">
+                <!--fila-->
+      <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="card">
+                    <div class="card-header bg-primary ">
+                      <p class="fw-bold text-center">campeon</p>
+                    </div>
+                 <div class="card-body">
+                    <img src="img/Lux_0-1.jpg" class="img-fluid" >
+                    <div class="cardfoot text-center bg-danger fw-bold"> <!--improvisar para ver si resultaba-->
+                      <p class="fw-bold">lux</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+         <div class="col col-md col-lg-">
+            <div class="card">
+               <div class="card-header text-white bg-primary">
+                  <span>campeones actuales</span>
+               </div>
+              <div class="card-body">
+                <table class="table table-bordered border-primary"> <!--crear tablas-->
+                  <thead>
+                    <tr>
+                      <th>campeon</th>
+                      <th>estado</th>
+                      <th>rol recomendado</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>lux</td>
+                      <td>feed</td>
+                      <td>mid</td>
+                    </tr>
+                    <tr>
+                      <td>yasuo</td>
+                      <td>hyper triple feed</td>
+                      <td>nexo</td>
+                    </tr>
+                    <tr>
+                      <td>ezreal</td>
+                      <td>nerf</td>
+                      <td>ninguna</td>
+                    </tr>
+                    <tr>
+                      <td>eco</td>
+                      <td>nerf</td>
+                      <td>adc</td>
+
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+           </div>
+         </div>
+       </div>
+    </main>                <!--pt=paddin-top,pb=paddin-botton mt=margin-top-->
+    <footer class="bg-dark text-white text-center pt-2 pb-2 mt-5 fixed-botton ">
+    <h3>ante cualquier duda contractarse a 
+      <a href="mailto:niño_rata@gmail.com">niño_rata@gmail.com</a></h3>
+    </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
